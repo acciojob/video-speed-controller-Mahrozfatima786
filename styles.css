@@ -18,7 +18,7 @@ body {
   align-items: center;
 }
 
-.viewer {
+.player__video {
   width: 100%;
   max-height: 430px;
 }
@@ -59,7 +59,6 @@ body {
 .progress__filled {
   width: 0%;
   background: #4caf50;
-  flex: 0;
   height: 100%;
   transition: width 0.1s;
 }

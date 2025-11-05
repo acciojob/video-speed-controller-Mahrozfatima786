@@ -8,11 +8,13 @@
 <body>
 
 <div class="player">
-  <video class="viewer" src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
+  <!-- Video -->
+  <video class="player__video" src="https://www.w3schools.com/html/mov_bbb.mp4"></video>
 
+  <!-- Controls -->
   <div class="controls">
     <button class="player__button toggle">►</button>
-    <button class="player__button" data-skip="-10">« 10s</button>
+    <button class="player__button rewind" data-skip="-10">« 10s</button>
     <button class="player__button" data-skip="25">25s »</button>
 
     <input type="range" name="volume" class="player__slider" min="0" max="1" step="0.05" value="1">
